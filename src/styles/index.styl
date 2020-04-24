@@ -1,0 +1,41 @@
+*
+	box-sizing border-box
+	margin 0
+	padding 0
+	border 0
+
+html, body
+	width 100vw
+	height 100vh
+
+body
+	line-height 1
+	font-family primary-font
+	font-size font-size-primary
+	font-weight font-weight-light
+	color primary-text-color
+	background primary-bg
+
+div, span, h1, h2, h3, h4, h5, h6, p,
+a, img, small, i, ol, ul, li, article, aside, footer, header, nav
+	margin 0
+	padding 0
+	border 0
+	font-size 100%
+	font inherit
+	vertical-align baseline
+
+span
+	display inline-block
+
+ol, ul
+	list-style none
+
+@media (max-width tablet-width)
+	body
+		font-size 14px
+	
+@media (max-width mobile-width)
+	body
+		font-size 12px
+

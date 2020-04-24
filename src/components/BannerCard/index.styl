@@ -1,0 +1,37 @@
+:local
+  .bannerCardContainer
+    width 35%
+    margin-left content-sides-space
+    margin-top calc(4% + 100px)
+    min-width 450px
+
+    @media screen and (max-width tablet-width)
+      min-width 450px
+
+    @media screen and (max-width mobile-width)
+      min-width 320px
+      margin-left 0
+      margin-top calc(10% + 100px)
+
+  .bannerCard
+    position relative
+    width 100%  
+    color light-text-color
+    padding 10% 10% 0 5%
+    -webkit-backdrop-filter blur(10px)
+    backdrop-filter blur(10px)
+    background-color rgba(123, 123, 123, 0.5)
+
+  .cardText
+    padding 22px 0 0
+
+  .moreInfo
+    padding 15px 0 0
+  
+  .wiki
+    width 14px
+    margin-right 5px
+  
+  .veredict
+    padding 25px 0
+
