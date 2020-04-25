@@ -1,4 +1,4 @@
-# zemoga UI Test
+# Zemoga UI Test
 
 Hi! this repository contains the solution for Semoga UI test.
 
@@ -6,16 +6,15 @@ Hi! this repository contains the solution for Semoga UI test.
 
 Technologies used for this test
 
- **ReactJs**
- **Html5**
- **Stylus**
- **WebPack**
- **Babel**
+ **ReactJs**<br>
+ **Html5**<br>
+ **Stylus**<br>
+ **WebPack**<br>
+ **Babel**<br>
 
 To run the test just run
 
-
-  npm install
-  npm start
+  `npm install`
+  `npm start`
 
 Because of time I didn't develop the data persist part and footer design.
