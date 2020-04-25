@@ -29,10 +29,6 @@ class Card extends React.Component {
     this.handleVoteAgain = this.handleVoteAgain.bind(this)
   }
 
-  componentDidMount () {
-    importAll(require.context("../../images/characters/", false, /\.(png|jpe?g|svg)$/))
-  }
-
   handleThumbsUp() {
     this.setState({ thumbSelected: 'up' })
   }
