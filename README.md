@@ -14,7 +14,7 @@ Technologies used for this test
 
 To run the test just run
 
-  `npm install`
+  `npm install`<br>
   `npm start`
 
 Because of time I didn't develop the data persist part and footer design.
