@@ -1,6 +1,6 @@
 # Zemoga UI Test
 
-Hi! this repository contains the solution for Semoga UI test.
+Hi! this repository contains the solution for Zemoga UI test.
 
 **Test description:** https://github.com/zemoga/ui-test
 
